@@ -25,7 +25,8 @@
     "name": "TavernAI",
     "version": "1.4.1",
     "bin": {
-        "TavernAI": "server.js"
+        "TavernAI": "server.js",
+        "Start": "node server.js"
     },
     "rules": {
         "no-path-concat": "off",
