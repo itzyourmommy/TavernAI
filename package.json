@@ -24,9 +24,11 @@
     },
     "name": "TavernAI",
     "version": "1.4.1",
+    "scripts": {
+        "start": "node server.js"
+    },
     "bin": {
-        "TavernAI": "server.js",
-        "Start": "node server.js"
+        "TavernAI": "server.js"
     },
     "rules": {
         "no-path-concat": "off",
